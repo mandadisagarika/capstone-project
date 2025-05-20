@@ -1,9 +1,7 @@
-
 streamlit
-transformers
 langchain
-openai
+langchain-community
 faiss-cpu
-tiktoken
 sentence-transformers
-python-dotenv
+transformers
+huggingface-hub
