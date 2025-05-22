@@ -1,33 +1,37 @@
 import streamlit as st
-from main_agent import run_system
+import fitz  # PyMuPDF for PDF display
+from rag_module import get_recommendation
+
+st.set_page_config(page_title="Laptop Accessory Recommender", page_icon="💻")
 
 st.title("💻 Laptop Accessory Recommendation System")
 
-user_query = st.text_input("Ask about an accessory (e.g., Best mouse for coding)")
-laptop_model = st.text_input("Laptop Model")
-interest = st.selectbox("Interest", ["productivity", "gaming", "design"])
+st.subheader("📘 Accessory Manual Browser")
+uploaded_pdf = st.file_uploader("Upload an accessory manual (PDF)", type="pdf")
 
-user_data = {
-    "laptop_model": laptop_model,
-    "interest": interest,
-}
+if uploaded_pdf is not None:
+    doc = fitz.open(stream=uploaded_pdf.read(), filetype="pdf")
+    with open("accessory_manual.txt", "w", encoding="utf-8") as f:
+        for page_num in range(len(doc)):
+            page = doc.load_page(page_num)
+            text = page.get_text()
+            st.markdown(f"### 📄 Page {page_num + 1}")
+            st.text(text)
+            f.write(text + "\n")
+
+st.markdown("Ask about an accessory (e.g., Best mouse for coding)")
+user_query = st.text_input("Enter your question")
+laptop_model = st.text_input("Laptop Model", placeholder="e.g., mac, dell, hp")
+interest = st.selectbox("Interest", ["gaming", "design", "typing", "portability", "multimedia", "general"])
 
 if st.button("Get Recommendation"):
-    results = run_system(user_query, user_data, "product_knowledge.txt")
-    
-    st.subheader("🔍 Recommendation")
-    st.write(results["recommendation"])
-    
-    st.subheader("📊 Feedback")
-    st.write(results["feedback"])
-    
-    st.subheader("📄 HTML Output")
-    st.markdown(results["html"], unsafe_allow_html=True)
+    if user_query and laptop_model:
+        recommendation = get_recommendation(user_query, laptop_model, interest)
+        st.subheader("🔍 Recommendation")
+        st.write(recommendation)
+    else:
+        st.warning("Please enter both a question and a laptop model.")
 
-st.markdown("---")
-st.subheader("💼 Business Value")
-st.markdown("""
-- **Increased CTR**: 20% improvement with contextual recommendations.
-- **User Retention**: Personalized accessories keep users engaged.
-- **Enhanced UX**: Content generated from user behavior insights.
-""")
+st.subheader("📊 Feedback")
+feedback = st.radio("How was the recommendation?", ["👍 Positive", "👎 Negative"])
+st.success(f"Thank you for your feedback: {feedback}")

@@ -1,0 +1,300 @@
+ISO 50001
+ISO 50001  
+Energy management 
+systems
+
+Energy is critical to organizations, 
+but often represents a significant 
+cost – both to them and 
+the environment. 
+World energy consumption continues to rise : it has more than doubled 
+in the last 40 years and is projected to increase a further 30 % by 2040 1). 
+What’s more, energy is the major contributor to climate change, making 
+up nearly 60 % of the world’s greenhouse gas emissions.
+Taking action to better manage our energy consumption not only 
+helps the planet, it saves money for organizations and society as 
+a whole. A study commissioned by the ClimateWorks Foundation, 
+a non-governmental organization that leverages the power of collec-
+tive philanthropy in the fight against climate change, showed that 
+if more were done to improve energy efficiency and reduce carbon 
+growth in the industrial and buildings sectors alone, we could make 
+over USD 3.2 trillion in public health-related savings 2). 
+ISO 50001:2018, Energy management systems – Requirements with 
+guidance for use, is a strategic tool that helps organizations put in 
+place an energy management system and use their energy more 
+efficiently and effectively.
+1) International Energy Agency (IEA), World Energy Outlook 2017 :  
+www.iea.org/weo2017
+2) ClimateWorks Foundation : www.climateworks.org/portfolios/energy-efficiency
+ISO 50001, Energy management systems – 1
+
+What is an energy 
+management system ?
+An energy management system helps organi-
+zations better manage their energy use, thus 
+improving productivity. It involves developing 
+and implementing an energy policy, setting 
+achievable targets for energy use, and design-
+ing action plans to reach them and measure 
+progress. This might include implementing 
+new energy-efficient technologies, reducing 
+energy waste or improving current processes 
+to cut energy costs.
+ISO 50001 gives organizations a recognized 
+framework for developing an effective energy 
+management system. Like other ISO man-
+agement system standards, it follows the 
+“ Plan-Do-Check-Act ” process for continual 
+improvement.
+ISO 50001 provides a set of requirements that 
+enable organizations to :
+•	 Develop a policy for more efficient use of 
+energy
+•	 Fix targets and objectives to meet that policy
+•	 Gather data to better understand and make 
+decisions concerning energy use
+•	 Measure the results obtained
+•	 Review the effectiveness of the policy
+•	 Continually improve energy management
+What benefits will 
+ISO 50001 bring  
+to my business ?
+ISO 50001 is designed to help your organiza-
+tion improve its energy performance through 
+making better use of its energy-intensive assets. 
+Improved energy performance can provide rapid 
+benefits for an organization by maximizing its 
+use of energy sources and energy-related assets, 
+reducing both cost and consumption.
+ISO 50001 is used by large and small organiza-
+tions all over the world. Its benefits can take many 
+forms. For some, it is about reducing the envi-
+ronmental impact and enhancing reputation; for 
+others, the aim is to drive down costs and improve 
+competitiveness.
+2 – ISO 50001, Energy management systems
+ISO 50001, Energy management systems – 3
+
+“ISO 50001 has really helped 
+us to ensure we are following a 
+consistent approach to energy 
+management across all our 
+properties. Since implementing 
+the standard, energy management 
+has remained a key focus for our 
+leadership and we continue to 
+seek opportunities to drive our 
+performance to the next level.”
+Maxime Verstraete, Vice President 
+of Corporate Responsibility  
+& ADA Compliance at Hilton
+Photo : Hilton
+ISO 50001 in action
+Following are a couple of success stories of 
+organizations using ISO 50001 :
+Hilton
+One of the world’s largest hotel chains, Hilton 
+was the first global hospitality company 
+to achieve portfolio-wide certification to 
+ISO 50001 following a comprehensive upgrade 
+to its corporate responsibility performance 
+measurement platform. The savings have 
+been significant, reducing Hilton’s energy 
+intensity by 20.6 % and its carbon intensity 
+by 30.0 % from a 2008 baseline.
+An Garda Síochána
+An Garda Síochána (AGS) is the 
+national police force of Ireland 
+with over 16 000 employees. When 
+the Irish government announced 
+its ambitious target of improving 
+energy efficiency by 33 % for the 
+public sector by 2020, AGS imple-
+mented a robust energy manage-
+ment system and received ISO 50001 
+certification. 
+Since starting the project in 2009, 
+AGS has saved USD 11 307 142 through 
+reduced energy use and energy effi-
+ciency is now considered in everyday 
+policing operations. 
+More examples of ISO 50001 
+in action can be found at the 
+Clean Energy Ministerial, a high-
+level international forum promoting 
+policies that advance the world’s 
+transition to clean energy.
+“ An Garda Síochána are the first national 
+police force in the world to achieve 
+ISO 50001 certification, achieving energy 
+savings of 21.9 % and energy cost savings 
+of 9.3 % since 2009.”
+Mike Dodd, Management Representative, 
+ISO 50001 Energy Team, An Garda Síochána
+4 – ISO 50001, Energy management systems
+ISO 50001, Energy management systems – 5
+
+Who is ISO 50001 for ?
+Like all ISO management system standards, ISO 50001 has been 
+designed for implementation by any organization in the public or 
+private sector, whatever its size, activity or geographical location.
+ISO 50001 does not fix targets for improving energy performance, 
+which is left up to the user organization or regulatory authorities. This 
+means that any organization, regardless of its current level of energy 
+performance, can implement ISO 50001 to establish a baseline and 
+improve on it at its own rate.
+What about 
+certification ?
+Like all ISO management system standards, ISO 50001 
+can be implemented solely for the internal and exter-
+nal benefits it provides to the organization itself, its 
+stakeholders and its customers. Certification to the 
+standard by an independent auditor is not a require-
+ment of ISO 50001. To certify or not is a decision to 
+be taken by the organization, unless imposed by 
+regulation. 
+Why was ISO 50001 
+revised ?
+Like all ISO standards, ISO 50001 is reviewed every 
+five years to ensure it is up to date with market 
+requirements. One of the main reasons for updating 
+ISO 50001 was to align it with ISO’s requirements for 
+management system standards, including its High-
+Level Structure (HLS), a framework designed to facili-
+tate the integration of new management topics into 
+an organization’s established management systems.
+Other key changes compared to the previous edition 
+include stronger emphasis on the role of senior man-
+agement, updates to terms and definitions as well as 
+the normalization and clarification of energy perfor-
+mance indicator (EnPI) and energy baseline (EnB) text 
+to provide a better understanding of these concepts.
+6 – ISO 50001, Energy management systems
+ISO 50001, Energy management systems – 7
+
+The ISO 50001 family
+Since ISO 50001 was first published in 2011, a number of other 
+related standards have been developed by ISO technical committee 
+ISO/TC 301, Energy management and energy savings, to complete the 
+energy management and energy savings family.
+These include :
+•	 ISO 50002, Energy audits – Requirements with guidance for use
+•	 ISO 50003, Energy management systems – Requirements for 
+bodies providing audit and certification of energy management 
+systems
+•	 ISO 50004, Energy management systems – 
+Guidance for the implementation, maintenance 
+and improvement of an energy management 
+system
+•	 ISO 50006, Energy management systems – 
+Measuring energy performance using energy 
+baselines (EnB) and energy performance 
+indicators (EnPI) – General principles and 
+guidance
+•	 ISO 50007, Energy services – Guidelines for the 
+assessment and improvement of the energy 
+service to users
+8 – ISO 50001, Energy management systems
+ISO 50001, Energy management systems – 9
+
+•	 ISO 50015, Energy 
+management systems 
+– Measurement and 
+verification of energy 
+performance of 
+organizations – General 
+principles and guidance
+•	 ISO 50047, Energy savings 
+– Determination of energy 
+savings in organizations
+•	 ISO 17741, General 
+technical rules for 
+measurement, calculation 
+and verification of energy 
+savings of projects
+•	 ISO 17742, Energy 
+efficiency and savings 
+calculation for countries, 
+regions and cities
+•	 ISO 17743, Energy 
+savings – Definition of a 
+methodological framework 
+applicable to calculation 
+and reporting on energy 
+savings
+•	 ISO/IEC 13273-1, Energy efficiency and renewable 
+energy sources – Common international 
+terminology – Part 1: Energy efficiency
+•	 ISO/IEC 13273-2, Energy efficiency and renewable 
+energy sources – Common international 
+terminology – Part 2: Renewable energy sources
+10 – ISO 50001, Energy management systems
+ISO 50001, Energy management systems – 11
+
+Looking to the future
+A number of other standards and related docu-
+ments in the ISO 50000 family are currently in 
+development:
+•	 ISO 50008, Building energy data manage-
+ment for energy performance – Guidance for 
+a systemic data exchange approach
+•	 ISO 50009, Guidance for multiple 
+organizations implementing a common 
+(ISO 50001) EnMS
+•	 ISO 50021, Energy management and energy 
+savings – General guidelines for selecting 
+energy savings evaluators
+•	 ISO 50044, Energy Savings Evaluation – 
+Economics and financial evaluation of energy 
+saving projects
+•	 ISO 50045, Technical guidelines for evaluation 
+of energy savings of thermal power plants
+•	 ISO 50046, General quantification methods for 
+predicted energy savings (PrES)
+•	 ISO 50049, Calculation methods for energy 
+efficiency and energy consumption variations 
+at country, region and city levels: relation to 
+energy savings and other factors
+More information
+ISO Website : www.iso.org
+ISO Website section on ISO 50001 : www.iso.org/iso/
+home/standards/management-standards/iso50001
+ISO Website section on energy efficiency : 
+www.iso.org/iso/energy
+ISOfocus magazine : www.iso.org/isofocus
+ISO videos : www.iso.org/youtube
+Follow us on Twitter : www.iso.org/twitter
+Join us on Facebook : www.iso.org/facebook
+Join us on GooglePlus : www.iso.org/gplus
+Clean Energy Ministerial ISO 50001 campaign : 
+www.driveto50001.org
+12 – ISO 50001, Energy management systems
+
+iso.org
+© ISO, 2018 
+All rights reserved
+ISBN : 978-92-67-10828-5
+International Organization  
+for Standardization
+ISO Central Secretariat 
+Ch. de Blandonnet 8 
+Case Postale 401 
+CH – 1214 Vernier, Geneva 
+Switzerland
+About ISO
+ISO (International Organization for Standardi-
+zation) is an independent, non-governmental 
+international organization with a membership 
+of 161* national standards bodies. Through its 
+members, it brings together experts to share 
+knowledge and develop voluntary, consensus-
+based, market-relevant International Standards 
+that support innovation and provide solutions to 
+global challenges. 
+ISO has published more than 22 000* Interna-
+tional Standards and related documents covering 
+almost every industry, from technology to food 
+safety, to agriculture and healthcare. 
+For more information, please visit www.iso.org.
+*July 2018
+

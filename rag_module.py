@@ -14,23 +14,21 @@ def load_docs(file_path):
     docs = text_splitter.split_documents(documents)
     return docs
 
-# Create FAISS vectorstore with HuggingFace embeddings
+# Create FAISS vectorstore
 def create_vectorstore(docs):
     embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
     vectorstore = FAISS.from_documents(docs, embeddings)
     return vectorstore
 
-# Build the full RAG chain (retriever + HuggingFace text generator)
+# Create RAG chain
 def get_rag_chain(vectorstore):
     retriever = vectorstore.as_retriever(search_kwargs={"k": 3})
-    
     qa_pipeline = pipeline(
         "text2text-generation",
         model="google/flan-t5-base",
         tokenizer="google/flan-t5-base",
         max_length=512
     )
-    
     llm = HuggingFacePipeline(pipeline=qa_pipeline)
 
     qa_chain = RetrievalQA.from_chain_type(
@@ -38,5 +36,13 @@ def get_rag_chain(vectorstore):
         retriever=retriever,
         return_source_documents=False
     )
-    
     return qa_chain
+
+# ✅ Fixed: Accepts 3 arguments
+def get_recommendation(query, laptop_model, interest):
+    full_query = f"Laptop Model: {laptop_model}\nInterest: {interest}\nQuery: {query}"
+    document_path = "accessory_manual.txt"  # Make sure this exists
+    docs = load_docs(document_path)
+    vectorstore = create_vectorstore(docs)
+    rag_chain = get_rag_chain(vectorstore)
+    return rag_chain.run(full_query)
