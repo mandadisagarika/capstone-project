@@ -38,11 +38,12 @@ def get_rag_chain(vectorstore):
     )
     return qa_chain
 
-# ✅ Fixed: Accepts 3 arguments
-def get_recommendation(query, laptop_model, interest):
-    full_query = f"Laptop Model: {laptop_model}\nInterest: {interest}\nQuery: {query}"
-    document_path = "accessory_manual.txt"  # Make sure this exists
-    docs = load_docs(document_path)
+# Generate recommendation from uploaded TXT file
+def generate_recommendation(query, laptop_model, interest):
+    file_path = "accessory_manual.txt"  # must match uploaded file name
+    docs = load_docs(file_path)
     vectorstore = create_vectorstore(docs)
     rag_chain = get_rag_chain(vectorstore)
+
+    full_query = f"Laptop Model: {laptop_model}\nInterest: {interest}\nQuery: {query}"
     return rag_chain.run(full_query)
